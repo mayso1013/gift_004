@@ -19,6 +19,8 @@
     <button onclick="sendLinkDefaultt()">거절 이서현 보내기</button>
     
     <button onclick="sendLinkDefaulttt()">화난 이서현 보내기</button>
+    
+    <button onclick="sendLinkDefaultttt()">윙크 이서현 보내기</button>
 
     <script>
 
@@ -139,6 +141,57 @@
             
 
             imageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyMzA0MDlfNjUg/MDAxNjgxMDE1MTc2MDc1.6-USiGhU3fdCXPOgH0RQ9gP6ad3Z8nGICEGu6yOyvNkg.9rF6TXABusJxt0V4TGB29751cE0AafBhzRLZRGIWrSwg.PNG.co755746/%EB%AC%B4%EC%A0%9C119%EF%BC%BF20230409133915.png?type=w800',
+
+            link: {
+
+              mobileWebUrl: 'https://mayso1013.github.io/gift_006',
+
+              webUrl: 'https://mayso1013.github.io/gift_006/',
+
+            },
+
+          },
+
+          buttons: [
+
+            {
+
+              title: '다운 받기',
+
+              link: {
+
+                mobileWebUrl: 'https://mayso1013.github.io/gift_006/',
+
+                webUrl: 'https://mayso1013.github.io/gift_006/',
+
+              },
+
+            },
+
+          ],
+
+        });
+
+      }
+
+    </script>
+    <script>
+
+      function sendLinkDefaultttt() {
+
+        Kakao.init('fa6bab2324b7c885bfdee15dadd43689');
+
+        Kakao.Link.sendDefault({
+
+          objectType: 'feed',
+
+          content: {
+
+            title: '윙크 하는 이서현',
+
+            
+
+            imageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyMzA0MDlfMTU3/MDAxNjgxMDE1ODEyMDgz.TWC6Wtj3utadYjQWZxb_Ag4BfoNIRPqNYDWVVuKgJOAg.JBSUwpedrkm-mNW0mVRxLSsMd066bg81yqaxfdcgqdQg.PNG.co755746/%EB%AC%B4%EC%A0%9C120%EF%BC%BF20230409134951.png?type=w800',
 
             link: {
 
