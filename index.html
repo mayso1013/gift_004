@@ -27,6 +27,8 @@
 <button onclick="sendLinkDefaultttttt()" style="background-color: #555555; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;">웃는 이서현 보내기</button><br>
     
 <button onclick="sendLinkDefaulttttttt()" style="background-color: #555555; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;">장난치는 이서현 보내기</button><br>
+    
+<button onclick="sendLinkDefaula()" style="background-color: #555555; border: none; color: white; padding: 15px 32px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer;">망상하는 이서현 보내기</button><br>
     <script>
 
       function sendLinkDefault() {
@@ -384,7 +386,58 @@
       }
 
     </script>
+    <script>
 
+      function sendLinkDefaula() {
+
+        Kakao.init('fa6bab2324b7c885bfdee15dadd43689');
+
+        Kakao.Link.sendDefault({
+
+          objectType: 'feed',
+
+          content: {
+
+            title: '망상하는 이서현',
+
+            
+
+            imageUrl: 'https://mblogthumb-phinf.pstatic.net/MjAyMzA1MDdfMjE2/MDAxNjgzNDQ2ODc1OTE2.v2Z4EVaCN03gOMlUksy61uGlbdRiguGZwrjhgtm6Sbgg.ZCgLK1czseJ5KonWBFTVckhgDcsmU0NrdhXxRibe10kg.PNG.co755746/%EB%AC%B4%EC%A0%9C125%EF%BC%BF20230507170727.png?type=w800',
+
+            link: {
+
+              mobileWebUrl: 'https://mayso1013.github.io/gift_006',
+
+              webUrl: 'https://mayso1013.github.io/gift_006/',
+
+            },
+
+          },
+
+          buttons: [
+
+            {
+
+              title: '다운 받기',
+
+              link: {
+
+                mobileWebUrl: 'https://mayso1013.github.io/gift_006/',
+
+                webUrl: 'https://mayso1013.github.io/gift_006/',
+
+              },
+
+            },
+
+          ],
+
+        });
+
+      }
+
+    </script>
+    
   </body>
 
 </html>
